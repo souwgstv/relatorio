@@ -113,8 +113,8 @@ function imprimeMonoculo(doc, coordenadasStr, eixoX, diagramStartY) {
 }
 
 // Traduz o código do técnico para o nome completo
-function getNomeTecnico(sigla) {
-    const tecnico = sigla;
+function getNomeTecnico(trigrama) {
+    const tecnico = trigrama;
     if (tecnico === "WSO") return "3° Sgt Sousa";
     if (tecnico === "LUE") return "2° Sgt Luender";
     return tecnico; 
